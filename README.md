@@ -20,12 +20,13 @@ The ultimate goal is to uncover insights that support better operational strateg
 ## 🛠️ Tools and Technologies Used  
 - **Language:** Python  
 - **Libraries:** pandas, numpy, matplotlib, seaborn, scipy  
-- **SQL queries** were executed to prepare the data before Python analysis  
-- **Techniques applied:**
-  - Exploratory Data Analysis (EDA)
-  - Grouped visualizations and ranking
-  - Hypothesis testing with statistical validation
-  - Interpretation of business-relevant trends in data
+- **Data preparation:** PostgreSQL via SQL queries  
+- **SQL techniques:**
+  - Filtering by date and time of day
+  - Grouping and aggregation
+  - CASE statements for custom group logic
+  - JOINs to combine data from multiple tables  
+- **📄 The SQL queries used in this project are available in the [zuber_queries.sql](./zuber_queries.sql) file.**
 
 ---
 
@@ -43,4 +44,3 @@ The ultimate goal is to uncover insights that support better operational strateg
 - Develop a **dashboard** (Streamlit / Power BI) for dynamic reporting  
 - Expand the hypothesis framework to include customer satisfaction metrics  
 - Deploy automated pipelines for periodic data analysis and alerts
-
